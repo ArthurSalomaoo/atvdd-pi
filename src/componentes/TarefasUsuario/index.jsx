@@ -19,7 +19,7 @@ const Tarefausuario = ({ tarefasUsuarios, usuario }) => {
               .filter((tarefa) => tarefa.completed)
               .map((tarefa) => (
                 <TarefaCompleta key={tarefa.id} tarefa={tarefa} />
-              ))} {/* Comentário movido para fora do JSX */}
+              ))}
           </div>
         </div>
         <div style={{ flex: 1 }}>
@@ -37,7 +37,7 @@ const Tarefausuario = ({ tarefasUsuarios, usuario }) => {
                   setTarefasDoUsuario={setTarefasDoUsuario}
                   tarefasDoUsuario={tarefasDoUsuario}
                 />
-              ))} {/* Comentário movido para fora do JSX */}
+              ))}
           </div>
         </div>
       </div>
