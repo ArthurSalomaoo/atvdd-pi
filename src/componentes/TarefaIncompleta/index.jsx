@@ -8,7 +8,6 @@ function TarefaIncompleta({ tarefa, setTarefasDoUsuario, tarefasDoUsuario }) {
 
   return (
     <>
-      {/* Renderiza a tarefa pendente */}
       <p onClick={completar} style={{ padding: "5px", cursor: "pointer" }}>
         {tarefa.title}
       </p>
